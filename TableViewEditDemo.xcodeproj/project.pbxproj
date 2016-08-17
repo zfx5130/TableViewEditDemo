@@ -15,6 +15,8 @@
 		CE085D201D649BF4007DE6E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE085D1E1D649BF4007DE6E8 /* LaunchScreen.storyboard */; };
 		CE085D2B1D649BF4007DE6E8 /* TableViewEditDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE085D2A1D649BF4007DE6E8 /* TableViewEditDemoTests.m */; };
 		CE085D361D649BF4007DE6E8 /* TableViewEditDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE085D351D649BF4007DE6E8 /* TableViewEditDemoUITests.m */; };
+		CE085D4B1D64A607007DE6E8 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE085D491D64A607007DE6E8 /* TestTableViewCell.m */; };
+		CE085D4C1D64A607007DE6E8 /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE085D4A1D64A607007DE6E8 /* TestTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		CE085D311D649BF4007DE6E8 /* TableViewEditDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewEditDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE085D351D649BF4007DE6E8 /* TableViewEditDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewEditDemoUITests.m; sourceTree = "<group>"; };
 		CE085D371D649BF4007DE6E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE085D481D64A607007DE6E8 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		CE085D491D64A607007DE6E8 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		CE085D4A1D64A607007DE6E8 /* TestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,9 @@
 				CE085D161D649BF4007DE6E8 /* ViewController.h */,
 				CE085D171D649BF4007DE6E8 /* ViewController.m */,
 				CE085D191D649BF4007DE6E8 /* Main.storyboard */,
+				CE085D481D64A607007DE6E8 /* TestTableViewCell.h */,
+				CE085D491D64A607007DE6E8 /* TestTableViewCell.m */,
+				CE085D4A1D64A607007DE6E8 /* TestTableViewCell.xib */,
 				CE085D1C1D649BF4007DE6E8 /* Assets.xcassets */,
 				CE085D1E1D649BF4007DE6E8 /* LaunchScreen.storyboard */,
 				CE085D211D649BF4007DE6E8 /* Info.plist */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE085D201D649BF4007DE6E8 /* LaunchScreen.storyboard in Resources */,
+				CE085D4C1D64A607007DE6E8 /* TestTableViewCell.xib in Resources */,
 				CE085D1D1D649BF4007DE6E8 /* Assets.xcassets in Resources */,
 				CE085D1B1D649BF4007DE6E8 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE085D181D649BF4007DE6E8 /* ViewController.m in Sources */,
+				CE085D4B1D64A607007DE6E8 /* TestTableViewCell.m in Sources */,
 				CE085D151D649BF4007DE6E8 /* AppDelegate.m in Sources */,
 				CE085D121D649BF4007DE6E8 /* main.m in Sources */,
 			);
@@ -498,6 +508,7 @@
 				CE085D3C1D649BF4007DE6E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE085D3D1D649BF4007DE6E8 /* Build configuration list for PBXNativeTarget "TableViewEditDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				CE085D3F1D649BF4007DE6E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE085D401D649BF4007DE6E8 /* Build configuration list for PBXNativeTarget "TableViewEditDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				CE085D421D649BF4007DE6E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
